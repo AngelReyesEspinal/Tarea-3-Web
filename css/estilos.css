@@ -1,0 +1,99 @@
+    /* estilos generales */
+    body {
+        display: flex;
+        min-height: 100vh;
+        flex-direction: column;
+    }
+
+    main {
+        flex: 1 0 auto;
+    }
+
+    .marginTop{
+        margin-top: 30px !important;
+    }
+
+    /* estilos inputs */
+
+    .negrita{
+        font-weight: bolder !important;
+    }
+
+    /* label color */
+    .input-field label {
+        color: #000;
+    }
+
+    /* label focus color */
+    .input-field input[type=text]:focus + label {
+        color: #e53935!important;
+    }
+
+    /* label underline focus color */
+    .input-field input[type=text]:focus {
+        border-bottom: 1px solid #e53935!important;
+        box-shadow: 0 1px 0 0 #e53935!important;
+    }
+
+    /* valid color */
+    .input-field input[type=text].valid {
+        border-bottom: 1px solid #000;
+        box-shadow: 0 1px 0 0 #000;
+    }
+
+    /* icon prefix focus color */
+    .input-field .prefix.active {
+        color: #e53935!important;
+    }
+
+    [type="radio"]:checked+span:after, [type="radio"].with-gap:checked+span:after {
+        background-color: #e53935!important;
+    }
+    
+    [type="radio"]:checked+span:after, [type="radio"].with-gap:checked+span:before, [type="radio"].with-gap:checked+span:after {
+        border: 2px solid #e53935!important;
+    }
+
+    /* botones */
+    .margenes{
+        margin-top: 40px!important;
+    }
+
+    /* cartas */            
+    .formatoCarta{
+        width: 100%!important;
+        height: 250px!important;
+        overflow-y: scroll;
+    }
+    
+    /* elementos de las listas */
+    .elemento{
+        cursor: pointer!important;
+        font-weight: normal;
+    }
+
+    .elemento:hover{
+        color: #212121!important;
+    }
+
+    /* elemento seleccionado */
+    .elementoSeleccionado{
+        cursor: pointer!important;
+        color: #212121;
+        font-weight: bold;
+    }
+    
+    .elementoDeseleccionado{
+        cursor: pointer!important;
+        color: white;
+        font-weight: normal;
+    }   
+
+    /* Estilos instalador */
+    .margenSuperiorInstalador{
+        margin-top: 50px!important;
+    }
+
+    .margenIzquierdo{
+        margin-left: 15px!important;
+    }
